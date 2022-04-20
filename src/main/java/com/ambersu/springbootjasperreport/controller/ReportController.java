@@ -34,10 +34,10 @@ public class ReportController {
 
         Map<String, Object> parameters = new HashMap<>();
 
-        JasperReport compileReport = JasperCompileManager
-                .compileReport(new FileInputStream("src/main/resources/Product.jrxml"));
+//        JasperReport compileReport = JasperCompileManager
+//                .compileReport(new FileInputStream("src/main/resources/Product.jasper"));
 
-        JasperPrint jasperPrint = JasperFillManager.fillReport(compileReport, parameters, beanCollectionDataSource);
+        JasperPrint jasperPrint = JasperFillManager.fillReport("src/main/resources/Product.jasper", parameters, beanCollectionDataSource);
         byte data[] = JasperExportManager.exportReportToPdf(jasperPrint);
 
 
