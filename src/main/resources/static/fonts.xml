@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+    <fontFamily name="kaiuf">
+        <normal>static/kaiu.ttf</normal>
+        <bold>static/kaiu.ttf</bold>
+        <italic>static/kaiu.ttf</italic>
+        <boldItalic>static/kaiu.ttf</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+        <exportFonts>
+            <export key="net.sf.jasperreports.html">kaiuf</export>
+            <export key="net.sf.jasperreports.xhtml">kaiuf</export>
+        </exportFonts>
+    </fontFamily>
+</fontFamilies>
